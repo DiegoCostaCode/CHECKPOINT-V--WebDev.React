@@ -24,7 +24,7 @@ export default function RootLayout({
           className="flex flex-row w-screen items-center"
         >
           <div className="flex flex-col w-[500px]">
-            <img className="w-[130px] shadow-inner" src="/img/disneylogo.png" />
+            <img className="w-[130px] shadow-inner-plus" src="/img/disneylogo.png" />
             <h1>Enjoy the greatest stories, all in one place.</h1>
             <button className="bg-[#6421ff] rounded-lg">
               <a className="p-4">GET DISNEY AND STAR PLUS</a>

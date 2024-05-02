@@ -15,7 +15,7 @@ const config: Config = {
       },
       boxShadow:
       {
-        "inner":"inset 10x 10px 10px 5px #070713;"
+        "inner-plus":"inset inset 0 0 10px 5px rgba(255, 255, 255, 0.8)"
       },
     },
   },
