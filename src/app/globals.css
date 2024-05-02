@@ -3,27 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  background-color: #070713;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    background-color: #070713;
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: Inspire;
+  src: url(https://static-assets.bamgrid.com/fonts/inspire/Inspire-Bold.4ff15ddc93445342649194969715b0b5.woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  color: #f9f9f9;
 }
 
 @layer utilities {
